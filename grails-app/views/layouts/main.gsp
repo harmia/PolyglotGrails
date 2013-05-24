@@ -28,8 +28,6 @@
 <div class="container">
     <div class="row">
         <div class="span8 offset2">
-            %{--<p class="activePage hide"><g:meta name="activePage"/></p>--}%
-
             <ul class="nav nav-tabs">
                 <li class="OVERVIEW"><g:link controller="overview" action="overview"><g:message code="main.nav.overview"/></g:link></li>
                 <li class="DEPARTMENTS"><g:link controller="department" action="departments"><g:message code="main.nav.departments"/></g:link></li>
