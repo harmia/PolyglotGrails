@@ -12,12 +12,6 @@ class BootStrap {
                 def municipality = new Municipality(name: object.getAt("name"))
                 municipality.save()
             }
-
-            //System.out.println JSONBuilder.getResource("classpath:data/data.json").text
-
-
-            //new Book(author: "Stephen King", title: "The Shining").save(failOnError: true)
-            //new Book(author: "James Patterson", title: "Along Came a Spider").save(failOnError: true)
         }
     }
     def destroy = {
