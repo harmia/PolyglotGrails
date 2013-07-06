@@ -1,5 +1,5 @@
 import grails.converters.JSON
-import info.harmia.polyglot.grails.domain.Municipality
+import info.harmia.polyglot.grails.model.Municipality
 
 class BootStrap {
 

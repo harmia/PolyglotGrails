@@ -1,4 +1,4 @@
-package info.harmia.polyglot.grails.domain
+package info.harmia.polyglot.grails.model
 
 import grails.validation.Validateable
 

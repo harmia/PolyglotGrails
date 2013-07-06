@@ -1,7 +1,7 @@
 package info.harmia.polyglot.grails.service
 
 import grails.validation.Validateable
-import info.harmia.polyglot.grails.domain.Department
+import info.harmia.polyglot.grails.model.Department
 
 /**
  * Created with IntelliJ IDEA.

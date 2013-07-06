@@ -1,7 +1,7 @@
 package info.harmia.polyglot.grails.service
 
 import grails.converters.JSON
-import info.harmia.polyglot.grails.domain.Department
+import info.harmia.polyglot.grails.model.Department
 import org.springframework.transaction.annotation.Transactional
 
 @Transactional

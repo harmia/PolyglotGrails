@@ -1,6 +1,6 @@
 package info.harmia.polyglot.grails.service
 import grails.validation.Validateable
-import info.harmia.polyglot.grails.domain.Employee
+import info.harmia.polyglot.grails.model.Employee
 import org.joda.time.LocalDate
 /**
  * Created with IntelliJ IDEA.
