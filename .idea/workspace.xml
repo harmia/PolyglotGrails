@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ffa67387-6292-4f19-b3c3-2479296ce78a" name="Default" comment="unified package naming conventions with other projects: .grails.domain -&gt; .grails.model">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/services/info/harmia/polyglot/grails/service/DepartmentForm.groovy" afterPath="$PROJECT_DIR$/grails-app/services/info/harmia/polyglot/grails/service/DepartmentForm.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/services/info/harmia/polyglot/grails/service/DepartmentService.groovy" afterPath="$PROJECT_DIR$/grails-app/services/info/harmia/polyglot/grails/service/DepartmentService.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/info/harmia/polyglot/grails/DepartmentTests.groovy" afterPath="$PROJECT_DIR$/test/unit/info/harmia/polyglot/grails/DepartmentTests.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/services/info/harmia/polyglot/grails/service/EmployeeForm.groovy" afterPath="$PROJECT_DIR$/grails-app/services/info/harmia/polyglot/grails/service/EmployeeForm.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/services/info/harmia/polyglot/grails/service/EmployeeService.groovy" afterPath="$PROJECT_DIR$/grails-app/services/info/harmia/polyglot/grails/service/EmployeeService.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/info/harmia/polyglot/grails/EmployeeTests.groovy" afterPath="$PROJECT_DIR$/test/unit/info/harmia/polyglot/grails/EmployeeTests.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/services/info/harmia/polyglot/grails/service/MunicipalityService.groovy" afterPath="$PROJECT_DIR$/grails-app/services/info/harmia/polyglot/grails/service/MunicipalityService.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/info/harmia/polyglot/grails/MunicipalityTests.groovy" afterPath="$PROJECT_DIR$/test/unit/info/harmia/polyglot/grails/MunicipalityTests.groovy" />
+    <list default="true" id="ffa67387-6292-4f19-b3c3-2479296ce78a" name="Default" comment="text escaping set automatic in html">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/project_structure_groovy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/images/pyramid_groovy.png" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\PolyglotGrails\web-app\images\pyramid_grails.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\IdeaProjects\PolyglotGrails\grails-app\domain\info\harmia\polyglot\grails\domain\Department.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/info/harmia/polyglot/grails/model/Department.groovy" />
-      <change type="MOVED" beforePath="D:\IdeaProjects\PolyglotGrails\grails-app\domain\info\harmia\polyglot\grails\domain\Employee.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/info/harmia/polyglot/grails/model/Employee.groovy" />
-      <change type="MOVED" beforePath="D:\IdeaProjects\PolyglotGrails\grails-app\domain\info\harmia\polyglot\grails\domain\Municipality.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/info/harmia/polyglot/grails/model/Municipality.groovy" />
     </list>
     <ignored path="PolyglotGrails.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,26 +17,26 @@
     <file path="/Employee.groovy" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369321134607" ignored="false" />
     <file path="/BuildConfig.groovy" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1368620727334" ignored="false" />
     <file path="/Config.groovy" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369329272708" ignored="false" />
-    <file path="/DepartmentService.groovy" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369330179433" ignored="false" />
+    <file path="/DepartmentService.groovy" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1373517250219" ignored="false" />
     <file path="/DepartmentController.groovy" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369330151555" ignored="false" />
     <file path="/DepartmentCommand.groovy" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1368527309447" ignored="false" />
     <file path="/fragment.java" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1372861687566" ignored="false" />
     <file path="/index.gsp" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1368528482009" ignored="false" />
     <file path="/main.gsp" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369329769100" ignored="false" />
     <file path="/messages.properties" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1372334271934" ignored="false" />
-    <file path="/overview.gsp" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369324997454" ignored="false" />
+    <file path="/overview.gsp" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1373527487781" ignored="false" />
     <file path="/UrlMappings.groovy" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369397787738" ignored="false" />
     <file path="/list.gsp" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1368627268709" ignored="false" />
     <file path="/sitemesh.xml" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1368626411266" ignored="false" />
     <file path="/application.properties" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369039846828" ignored="false" />
-    <file path="/departments.gsp" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369318944923" ignored="false" />
-    <file path="/a.dummy" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1372866756936" ignored="false" />
-    <file path="/Dummy.txt" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1373105872385" ignored="false" />
-    <file path="$PROJECT_DIR$/../PolyglotSpringMVC/.idea/workspace.xml" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1372849642310" ignored="false" />
+    <file path="/departments.gsp" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1373634387076" ignored="false" />
+    <file path="/a.dummy" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1373455299205" ignored="false" />
+    <file path="/Dummy.txt" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1374468078446" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotSpringMVC/.idea/workspace.xml" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1373541360155" ignored="false" />
     <file path="/EmployeeForm.groovy" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369321402595" ignored="false" />
     <file path="/EmployeeController.groovy" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369330260275" ignored="false" />
     <file path="/EmployeeService.groovy" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369330215836" ignored="false" />
-    <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/java/info/harmia/polyglot/springapp/mvc/core/service/DefaultEmployeeService.java" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369331445440" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/java/info/harmia/polyglot/springapp/mvc/core/service/DefaultEmployeeService.java" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1373106495987" ignored="false" />
     <file path="/employees.gsp" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369322964102" ignored="false" />
     <file path="/ApplicationResources.groovy" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369039510554" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/webapp/WEB-INF/decorators/main.jsp" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369332885038" ignored="false" />
@@ -63,10 +55,10 @@
     <file path="/main.jsp" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369332137686" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotSpringMVC/pom.xml" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369331445441" ignored="false" />
     <file path="/resources.groovy" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1372861549961" ignored="false" />
-    <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/webapp/WEB-INF/pages/departments.jsp" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369331445440" ignored="false" />
-    <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/webapp/WEB-INF/pages/employees.jsp" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369331445440" ignored="false" />
-    <file path="/employees.jsp" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369330815132" ignored="false" />
-    <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/java/info/harmia/polyglot/springapp/mvc/core/service/EmployeeForm.java" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369331445440" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/webapp/WEB-INF/pages/departments.jsp" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1373525155840" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/webapp/WEB-INF/pages/employees.jsp" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1373524145535" ignored="false" />
+    <file path="/employees.jsp" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1373524138983" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/java/info/harmia/polyglot/springapp/mvc/core/service/EmployeeForm.java" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1373455205542" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/java/info/harmia/polyglot/springapp/mvc/web/controller/EmployeeController.java" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369332834530" ignored="false" />
     <file path="/EmployeeController.java" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369330967850" ignored="false" />
     <file path="/error.gsp" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369316173970" ignored="false" />
@@ -85,34 +77,34 @@
     <file path="$USER_HOME$/.grails/2.2.2/projects/PolyglotGrails/plugins/twitter-bootstrap-2.3.0/grails-app/conf/BootstrapResources.groovy" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369324165993" ignored="false" />
     <file path="$USER_HOME$/.grails/2.2.2/projects/PolyglotGrails/plugins/twitter-bootstrap-2.3.0/grails-app/taglib/org/groovydev/TwitterBootstrapTagLib.groovy" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369324165993" ignored="false" />
     <file path="$USER_HOME$/.grails/2.2.2/projects/PolyglotGrails/plugins/resources-1.1.6/grails-app/taglib/org/grails/plugin/resource/ResourceTagLib.groovy" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369324165993" ignored="false" />
-    <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/resources/i18n/exceptions.properties" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369331445441" ignored="false" />
-    <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/resources/i18n/exceptions_fi.properties" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369331526004" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/resources/i18n/exceptions.properties" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1373455378792" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/resources/i18n/exceptions_fi.properties" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1373455378792" ignored="false" />
     <file path="/exceptions_fi.properties" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369331526004" ignored="false" />
     <file path="/MunicipalityService.groovy" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369330044150" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/java/info/harmia/polyglot/springapp/mvc/web/controller/MunicipalityController.java" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369332880182" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/java/info/harmia/polyglot/springapp/mvc/web/controller/DepartmentController.java" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369332837634" ignored="false" />
     <file path="/DepartmentController.java" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369331290643" ignored="false" />
-    <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/java/info/harmia/polyglot/springapp/mvc/core/service/DepartmentForm.java" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369331445440" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/java/info/harmia/polyglot/springapp/mvc/core/service/DepartmentForm.java" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1373455291452" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/java/info/harmia/polyglot/springapp/mvc/core/repositories/DepartmentRepository.java" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369331445440" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/resources/META-INF/persistence.xml" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369331445440" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/webapp/WEB-INF/tags/flash-message.tag" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369331445440" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/java/info/harmia/polyglot/springapp/mvc/core/service/EmployeeService.java" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369331445440" ignored="false" />
-    <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369331928107" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1373106495987" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/webapp/WEB-INF/web.xml" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369331445440" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/java/info/harmia/polyglot/springapp/mvc/web/controller/OverviewController.java" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369331445440" ignored="false" />
-    <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/java/info/harmia/polyglot/springapp/mvc/core/service/DefaultDepartmentService.java" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369331445440" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/java/info/harmia/polyglot/springapp/mvc/core/service/DefaultDepartmentService.java" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1373107967378" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/java/info/harmia/polyglot/springapp/mvc/core/service/DepartmentService.java" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369331445440" ignored="false" />
-    <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/java/info/harmia/polyglot/springapp/mvc/core/service/DefaultMunicipalityService.java" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369331445440" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/java/info/harmia/polyglot/springapp/mvc/core/service/DefaultMunicipalityService.java" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1373106495987" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/webapp/WEB-INF/sitemesh3.xml" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369331445440" ignored="false" />
-    <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/webapp/WEB-INF/pages/overview.jsp" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1372849376796" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/webapp/WEB-INF/pages/overview.jsp" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1373524200969" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/webapp/data/data.json" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369331445440" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/webapp/data/names.json" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369331445440" ignored="false" />
-    <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/java/info/harmia/polyglot/springapp/mvc/core/model/Department.java" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369331445440" ignored="false" />
-    <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/java/info/harmia/polyglot/springapp/mvc/core/model/Municipality.java" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369331445440" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/java/info/harmia/polyglot/springapp/mvc/core/model/Department.java" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1373455438034" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/java/info/harmia/polyglot/springapp/mvc/core/model/Municipality.java" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1373455239346" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/java/info/harmia/polyglot/springapp/mvc/core/repositories/MunicipalityRepository.java" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369331445440" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/java/info/harmia/polyglot/springapp/mvc/web/utils/FlashMessage.java" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369331445440" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/java/info/harmia/polyglot/springapp/mvc/core/repositories/EmployeeRepository.java" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369331445440" ignored="false" />
-    <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/java/info/harmia/polyglot/springapp/mvc/core/model/Employee.java" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369331445441" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/java/info/harmia/polyglot/springapp/mvc/core/model/Employee.java" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1373455141962" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotSpringMVC/PolyglotSpringMVC.iml" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369331445441" ignored="false" />
     <file path="/mvc-dispatcher-servlet.xml" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369331913185" ignored="false" />
     <file path="/MunicipalityController.java" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1369332681467" ignored="false" />
@@ -140,7 +132,7 @@
     <file path="$PROJECT_DIR$/../PolyglotVertx/web/js/client_app.js" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1372402916746" ignored="false" />
     <file path="/client_app.js" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1372401573328" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotVertx/App.groovy" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1372401306381" ignored="false" />
-    <file path="/overview.jsp" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1372849376796" ignored="false" />
+    <file path="/overview.jsp" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1373524184280" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotGrailsJavaLegacy/grails-app/conf/ApplicationResources.groovy" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1372857034209" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotGrailsJavaLegacy/grails-app/conf/BootStrap.groovy" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1372861277209" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotGrailsJavaLegacy/grails-app/conf/hibernate/hibernate.cfg.xml" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1372860466653" ignored="false" />
@@ -148,7 +140,7 @@
     <file path="$PROJECT_DIR$/../PolyglotGrailsJavaLegacy/src/java/model/Municipality.java" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1372857607439" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotGrailsJavaLegacy/src/java/model/Employee.java" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1372857607439" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotGrailsJavaLegacy/src/java/info/harmia/polyglot/springapp/mvc/core/model/DepartmentConstraints.groovy" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1372858011804" ignored="false" />
-    <file path="$PROJECT_DIR$/../PolyglotGrailsJavaLegacy/src/java/info/harmia/polyglot/springapp/mvc/core/model/EmployeeConstraints.groovy" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1372858027364" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotGrailsJavaLegacy/src/java/info/harmia/polyglot/springapp/mvc/core/model/EmployeeConstraints.groovy" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1373481232482" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotGrailsJavaLegacy/src/java/info/harmia/polyglot/springapp/mvc/core/model/MunicipalityConstraints.groovy" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1372858038973" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotGrailsJavaLegacy/grails-app/controllers/controller/OverviewController.groovy" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1372858132736" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotGrailsJavaLegacy/grails-app/controllers/controller/DepartmentController.groovy" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1372859586505" ignored="false" />
@@ -179,7 +171,7 @@
     <file path="$PROJECT_DIR$/../PolyglotGrailsJavaLegacy/README.md" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1372859256443" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotGrailsJavaLegacy/grails-app/conf/UrlMappings.groovy" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1372859369238" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotGrailsJavaLegacy/grails-app/conf/DataSource.groovy" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1372859374966" ignored="false" />
-    <file path="$PROJECT_DIR$/../PolyglotGrailsJavaLegacy/grails-app/conf/Config.groovy" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1372859391053" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotGrailsJavaLegacy/grails-app/conf/Config.groovy" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1373527792878" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotGrailsJavaLegacy/grails-app/conf/BuildConfig.groovy" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1372859412175" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotGrailsJavaLegacy/grails-app/services/info/harmia/polyglot/grails/service/DepartmentForm.groovy" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1372859747156" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotGrailsJavaLegacy/grails-app/services/info/harmia/polyglot/grails/service/DepartmentService.groovy" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1372859751258" ignored="false" />
@@ -201,6 +193,20 @@
     <file path="$PROJECT_DIR$/../PolyglotGrailsJavaLegacy/grails-app/controllers/info/harmia/polyglot/grails/controller/MunicipalityController.groovy" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1372861972174" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotGrailsJavaLegacy/src/java/info/harmia/polyglot/springapp/mvc/core/repositories/MunicipalityRepository.java" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1372861935992" ignored="false" />
     <file path="/MunicipalityRepository.java" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1372861919243" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/java/info/harmia/polyglot/springapp/mvc/core/repository/EmployeeRepository.java" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1373106495987" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/java/info/harmia/polyglot/springapp/mvc/core/repository/DepartmentRepository.java" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1373106495987" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/java/info/harmia/polyglot/springapp/mvc/core/repository/MunicipalityRepository.java" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1373106495987" ignored="false" />
+    <file path="/DefaultDepartmentService.java" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1373107963391" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotGrailsJavaLegacy/.idea/workspace.xml" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1373541360155" ignored="false" />
+    <file path="/Employee.java" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1373455139385" ignored="false" />
+    <file path="/EmployeeForm.java" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1373455202791" ignored="false" />
+    <file path="/Municipality.java" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1373455234159" ignored="false" />
+    <file path="/Department.java" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1373455269364" ignored="false" />
+    <file path="/DepartmentForm.java" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1373455289255" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotGrailsJavaLegacy/src/java/info/harmia/polyglot/springapp/mvc/core/model/Municipality.java" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1373455851373" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotGrailsJavaLegacy/src/java/info/harmia/polyglot/springapp/mvc/core/model/Department.java" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1373455851373" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotGrailsJavaLegacy/src/java/info/harmia/polyglot/springapp/mvc/core/model/Employee.java" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1373455851373" ignored="false" />
+    <file path="/departments.jsp" changelist="ffa67387-6292-4f19-b3c3-2479296ce78a" time="1373525097191" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,6 +214,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -215,6 +226,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -251,7 +263,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -261,74 +272,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Department.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/domain/info/harmia/polyglot/grails/model/Department.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="5" selection-start="206" selection-end="253" vertical-scroll-proportion="0.0">
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider editor-type-id="text-editor">
+            <state line="10" column="90" selection-start="1252" selection-end="1252" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Employee.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/domain/info/harmia/polyglot/grails/model/Employee.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="11" selection-start="352" selection-end="433" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+          <provider selected="true" editor-type-id="MarkdownPreviewEditor">
             <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Municipality.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/domain/info/harmia/polyglot/grails/model/Municipality.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="22" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BootStrap.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="62" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DepartmentService.groovy" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/grails-app/services/info/harmia/polyglot/grails/service/DepartmentService.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="14" selection-start="424" selection-end="424" vertical-scroll-proportion="0.41827768">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="23" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BuildConfig.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="34" selection-start="2075" selection-end="2075" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
           </provider>
         </entry>
       </file>
@@ -350,22 +302,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/grails-app/i18n/exceptions_fi.properties" />
-        <option value="$PROJECT_DIR$/grails-app/views/overview/overview.gsp" />
         <option value="$PROJECT_DIR$/grails-app/i18n/messages.properties" />
-        <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/info/harmia/polyglot/grails/controller/MunicipalityController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/services/info/harmia/polyglot/grails/service/MunicipalityService.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/info/harmia/polyglot/grails/controller/DepartmentController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/services/info/harmia/polyglot/grails/service/DepartmentService.groovy" />
         <option value="$PROJECT_DIR$/grails-app/services/info/harmia/polyglot/grails/service/EmployeeService.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/info/harmia/polyglot/grails/controller/EmployeeController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
         <option value="$PROJECT_DIR$/grails-app/i18n/messages_fi.properties" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
         <option value="$PROJECT_DIR$/../PolyglotGrailsSpringMVCIntegration/README.md" />
         <option value="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/services/info/harmia/polyglot/grails/service/DepartmentService.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/overview/overview.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/department/departments.gsp" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -404,6 +356,94 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PolyglotGrails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PolyglotGrails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PolyglotGrails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PolyglotGrails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PolyglotGrails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="info.harmia.polyglot.grails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PolyglotGrails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PolyglotGrails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="info.harmia.polyglot.grails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PolyglotGrails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PolyglotGrails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="info.harmia.polyglot.grails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PolyglotGrails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PolyglotGrails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="info.harmia.polyglot.grails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -794,94 +834,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PolyglotGrails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PolyglotGrails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PolyglotGrails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PolyglotGrails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PolyglotGrails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="info.harmia.polyglot.grails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PolyglotGrails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PolyglotGrails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="info.harmia.polyglot.grails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PolyglotGrails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PolyglotGrails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="info.harmia.polyglot.grails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PolyglotGrails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PolyglotGrails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="info.harmia.polyglot.grails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -918,16 +870,16 @@
       <recent name="D:\IdeaProjects\PolyglotGrails\web-app\data" />
       <recent name="D:\IdeaProjects\PolyglotGrails\grails-app\i18n" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\IdeaProjects\PolyglotGrails" />
-      <recent name="D:\IdeaProjects\PolyglotGrails\web-app\images" />
-      <recent name="D:\IdeaProjects\PolyglotGrails\grails-app\views" />
-      <recent name="D:\IdeaProjects\PolyglotGrails\grails-app\views\department" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="info.harmia.polyglot.grails" />
       <recent name="info.harmia.polyglot.grails.core" />
       <recent name="info.harmia.polyglot.grails.web" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\PolyglotGrails\web-app\images" />
+      <recent name="D:\IdeaProjects\PolyglotGrails" />
+      <recent name="D:\IdeaProjects\PolyglotGrails\grails-app\views" />
+      <recent name="D:\IdeaProjects\PolyglotGrails\grails-app\views\department" />
     </key>
   </component>
   <component name="RunManager" selected="Grails.Grails:PolyglotGrails">
@@ -1114,7 +1066,15 @@
       <created>1372861339300</created>
       <updated>1372861339300</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="unified package naming conventions with other projects: .grails.domain -&gt; .grails.model">
+      <created>1373106028090</created>
+      <updated>1373106028090</updated>
+    </task>
+    <task id="LOCAL-00005" summary="text escaping set automatic in html">
+      <created>1373527773877</created>
+      <updated>1373527773877</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1145,7 +1105,6 @@
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21771611" sideWeight="0.28428093" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32703003" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1162,12 +1121,13 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34471717" sideWeight="0.6618465" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3381535" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24813233" sideWeight="0.6755603" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3243243" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3259177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32703003" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.67112595" order="4" side_tool="false" content_ui="tabs" x="651" y="71" width="618" height="897" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1215,7 +1175,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed unnecessary commented implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="text escaping set automatic in html" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1232,6 +1192,8 @@
     <MESSAGE value="added polyglot programming pyramid of grails project" />
     <MESSAGE value="removed unnecessary commented line" />
     <MESSAGE value="removed unnecessary commented implementation" />
+    <MESSAGE value="unified package naming conventions with other projects: .grails.domain -&gt; .grails.model" />
+    <MESSAGE value="text escaping set automatic in html" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1241,121 +1203,119 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web-app/WEB-INF/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="62" selection-start="1457" selection-end="1457" vertical-scroll-proportion="0.64608073">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/WEB-INF/sitemesh.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PolyglotGrails.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/ApplicationResources.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="28" selection-start="81" selection-end="81" vertical-scroll-proportion="0.06115108" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="27" selection-start="4008" selection-end="4008" vertical-scroll-proportion="1.9464068">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="22" selection-start="0" selection-end="1225" vertical-scroll-proportion="0.44418052" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="20" selection-start="0" selection-end="1255" vertical-scroll-proportion="0.4239905" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/services/info/harmia/polyglot/grails/service/EmployeeForm.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="6" selection-start="1350" selection-end="1350" vertical-scroll-proportion="0.30285037">
-          <folding>
-            <element signature="e#44#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/info/harmia/polyglot/grails/controller/DepartmentController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="6" selection-start="112" selection-end="112" vertical-scroll-proportion="0.052503053">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/info/harmia/polyglot/grails/model/Department.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="5" selection-start="206" selection-end="253" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/info/harmia/polyglot/grails/model/Employee.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="11" selection-start="352" selection-end="433" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/info/harmia/polyglot/grails/model/Municipality.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="22" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="23" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="5" column="106" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="34" selection-start="2075" selection-end="2075" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="7.8461537">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="62" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
+        <state line="1" column="53" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/services/info/harmia/polyglot/grails/service/EmployeeForm.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="58" selection-start="1527" selection-end="1527" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/services/info/harmia/polyglot/grails/service/DepartmentForm.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="37" selection-start="1355" selection-end="1355" vertical-scroll-proportion="0.35581395">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/info/harmia/polyglot/grails/model/Employee.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="6" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/info/harmia/polyglot/grails/model/Department.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="59" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://C:/java/grails-2.2.2/src/grails-datastore-gorm-1.1.7.RELEASE-sources.jar!/org/grails/datastore/gorm/GormStaticApi.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="76" selection-start="3239" selection-end="3239" vertical-scroll-proportion="0.38273922">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/services/info/harmia/polyglot/grails/service/EmployeeService.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="10" selection-start="408" selection-end="408" vertical-scroll-proportion="0.11046512">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/java/grails-2.2.2/src/grails-plugin-converters-2.2.2-sources.jar!/grails/converters/JSON.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="13" selection-start="2539" selection-end="2539" vertical-scroll-proportion="0.3326613" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/services/info/harmia/polyglot/grails/service/DepartmentService.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="14" selection-start="424" selection-end="424" vertical-scroll-proportion="0.41827768">
+        <state line="36" column="39" selection-start="973" selection-end="973" vertical-scroll-proportion="0.0">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="77" selection-start="1255" selection-end="1255" vertical-scroll-proportion="0.4089347">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="30" selection-start="1466" selection-end="1466" vertical-scroll-proportion="0.019473081">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/overview/overview.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="161" selection-start="1565" selection-end="1565" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/department/departments.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="66" selection-start="1432" selection-end="1432" vertical-scroll-proportion="0.31442663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
+        <state line="10" column="90" selection-start="1252" selection-end="1252" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
   </component>
